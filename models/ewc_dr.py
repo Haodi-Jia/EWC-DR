@@ -79,13 +79,13 @@ class EWCDR(BaseLearner):
             self.omega = self.getImportance(self.train_loader)
         else:
             alpha = self._known_classes / self._total_classes
-            new_finsher = self.getImportance(self.train_loader)
-            for n, p in new_finsher.items():
-                new_finsher[n][: len(self.omega[n])] = (
+            new_omega = self.getImportance(self.train_loader)
+            for n, p in new_omega.items():
+                new_omega[n][: len(self.omega[n])] = (
                         alpha * self.omega[n]
-                        + (1 - alpha) * new_finsher[n][: len(self.omega[n])]
+                        + (1 - alpha) * new_omega[n][: len(self.omega[n])]
                 )
-            self.omega = new_finsher
+            self.omega = new_omega
 
         self.mean = {
             n: p.clone().detach()
