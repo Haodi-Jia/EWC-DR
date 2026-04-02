@@ -2,6 +2,10 @@
 
 This repository contains the official implementation of our CVPR 2026 paper, "Elastic Weight Consolidation Done Right for Continual Learning."
 
+In this paper:
+- We present a gradient‑based analysis of EWC and its variants, offering new insights for building more reliable and effective regularization‑based continual learning algorithms.
+- Our analysis reveals a fundamental **weight importance misalignment**: EWC suffers from gradient vanishing, while MAS experiences redundant protection, leading to inferior continual learning performance.
+- We propose **EWC‑DR (EWC Done Right)** , an enhancement to vanilla EWC that introduces a simple **Logits Reversal (LR)** operation during importance estimation. EWC‑DR corrects the misalignment and substantially improves performance across continual learning tasks.
 
 ## 1.Requisite
 
