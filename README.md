@@ -1,5 +1,10 @@
 # Elastic Weight Consolidation Done Right for Continual Learning (EWC-DR)
 
+<div style='display:flex; gap: 0.25rem; '>
+<a href='LICENSE.txt'><img src='https://img.shields.io/badge/License-Apache 2.0-g.svg'></a>
+<a href='https://arxiv.org/abs/2603.18596'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+</div>
+
 This repository contains the official implementation of our CVPR 2026 paper, "Elastic Weight Consolidation Done Right for Continual Learning."
 
 In this paper:
