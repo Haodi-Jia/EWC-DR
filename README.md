@@ -87,9 +87,11 @@ You can customize the continual learning settings by modifying `init_cls` and `i
     python main.py --config=./exps/ewcdr_tinyimg_equalsplit.json
     ```
 
+## 4. Results
+Below are the experimental results on CIFAR-100. Each reported result is the mean across three independent trials.
+![EFCIL performance on CIFAR-100](./figs/result.png)
 
-
-## 4.Citation
+## 5.Citation
 
 ```bibtex
 @inproceedings{liu2026elastic,
@@ -101,7 +103,7 @@ You can customize the continual learning settings by modifying `init_cls` and `i
 ```
 
 
-## 5.Reference
+## 6.Reference
 We appreciate the following repositories for their contributions of useful components and functions to our work.
 
 - [PyCIL](https://github.com/LAMDA-CL/PyCIL)
