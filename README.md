@@ -28,7 +28,7 @@ For full package details, see `requirements.txt`.
 ## 2.Dataset
  * Create a folder `data/`.
  * **CIFAR 100**: will be automatically downloaded to `data/`.
- * **ImageNet-Subset (ImageNet-100)**: retrieve from [link](https://drive.google.com/drive/folders/1RBrPGrZzd1bHU5YG8PjdfwpHANZR_lhJ?usp=sharing).
+ * **ImageNet-Subset (ImageNet-100)**: retrieve from [link](https://www.kaggle.com/datasets/arjunashok33/imagenet-subset-for-inc-learn).
  * **Tiny-ImageNet**: retrieve from [link](http://cs231n.stanford.edu/tiny-imagenet-200.zip) and format it into PyTorch's `ImageFolder` structure using [this script](https://github.com/youmingzhao91/Tiny-ImageNet-Pytorch/blob/main/formatting_TinyImageNet.py).
 
 After unzipping ImageNet-Subset and Tiny-ImageNet, place them in the `data/` folder and organize the data as follows:
